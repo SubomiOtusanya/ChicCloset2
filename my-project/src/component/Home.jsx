@@ -1,6 +1,9 @@
 import "./Home.css"
 import img from "../assets/Frame 4.png"
+import { Navigate, useNavigate } from "react-router-dom"
 const Home = () => {
+
+  const navigate = useNavigate()
   return (
     <>
       <section className="section1">
@@ -16,7 +19,7 @@ const Home = () => {
 
           <div className="nav-search">
           <i class='bx bx-search'></i>
-            <button class="shop">Shop now</button>
+            <button onClick={()=>navigate('Login')} class="shop">Shop now</button>
           </div>
         </nav>
         <div className="content">
