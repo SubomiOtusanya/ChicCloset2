@@ -4,7 +4,7 @@ const Login = () => {
     <>
       <div className="container">
         <div className="img">
-          <div className="text1">Welcome to ChicCloset</div>
+          <div className="text1"><p>Welcome to ChicCloset</p></div>
           <div className="text2">Discover a world of fashion tailored just for you</div>
           <img src="/images/Login.png" className="image1" />
         </div>
