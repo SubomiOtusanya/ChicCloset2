@@ -1,12 +1,12 @@
 import "../component/login.css"
+import LoginPic from "../assets/Login.png"
 const Login = () => {
   return (
     <>
-      <div className="container">
         <div className="img">
           <div className="text1"><p>Welcome to ChicCloset</p></div>
           <div className="text2">Discover a world of fashion tailored just for you</div>
-          <img src="/images/Login.png" className="image1" />
+          <img src={LoginPic} className="image1" />
         </div>
         <div className="content">
           <div className="logo">
@@ -31,7 +31,6 @@ const Login = () => {
           <div className="login">Don't have an account? <a href="sign-up.html">Sign up</a></div>
           <p>David was here</p>
         </div>
-      </div>
     </>
   )
 }
