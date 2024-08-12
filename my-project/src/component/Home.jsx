@@ -5,9 +5,10 @@ const Home = () => {
 
   const navigate = useNavigate()
   return (
-    <>
-      <section className="section1">
-        <nav className="nav-bar">
+    
+      <section className="mainsec">
+        <section className="section1">
+        <nav className="nav-bar" >
           <img src={img} alt="" class="image" />
 
           <div className="nav-links">
@@ -22,25 +23,24 @@ const Home = () => {
             <button onClick={()=>navigate('Login')} class="shop">Shop now</button>
           </div>
         </nav>
-        <div className="content">
-          <div className="text">
-            <h1 className="text1">ChicCloset</h1>
-            <p className="text2">
+
+        <div className="text-container">
+          <div className="text-div">
+            <h1 className="brand-name">ChicCloset</h1>
+            <p className="discover">
               Discover the latest trends in fashion
             </p>
           </div>
-          <div className="shop-div">
-            <button className="shop-btn">Shop now</button>
-          </div>
+          
+          
         </div>
         <div className="shop-div">
-            <button className="shop-btn">Shop now</button>
+            <button onClick={()=>navigate('Login')}  className="shop-btn">Shop now</button>
           </div>
+          </section>
       </section>
-      <section className="second">
-        <a>subomi</a>
-      </section>
-    </>
+      
+    
 
   )
 }
