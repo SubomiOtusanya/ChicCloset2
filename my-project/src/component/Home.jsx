@@ -38,7 +38,7 @@ const Home = () => {
           </div>
       </section>
       <section className="second">
-        fftdjfgm
+        <a>subomi</a>
       </section>
     </>
 
