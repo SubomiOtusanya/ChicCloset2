@@ -29,13 +29,16 @@ const Home = () => {
               Discover the latest trends in fashion
             </p>
           </div>
-          {/* <div className="shop-div">
+          <div className="shop-div">
             <button className="shop-btn">Shop now</button>
-          </div> */}
+          </div>
         </div>
         <div className="shop-div">
             <button className="shop-btn">Shop now</button>
           </div>
+      </section>
+      <section className="second">
+        fftdjfgm
       </section>
     </>
 
