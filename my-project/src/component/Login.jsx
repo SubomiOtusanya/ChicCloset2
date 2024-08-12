@@ -29,7 +29,7 @@ const Login = () => {
           </div>
           <button type="submit" id="continue">Login</button>
           <div className="login">Don't have an account? <a href="sign-up.html">Sign up</a></div>
-          <p>DAVID</p>
+          <p>David was here</p>
         </div>
       </div>
     </>
