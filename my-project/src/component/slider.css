@@ -1,0 +1,20 @@
+.img1{
+  transition: transform 0.3s ease-in-out;
+  /* border-radius: 50px; */
+}
+
+.img1:hover{
+  transform: scale(1.05);
+  border-radius: inherit;
+}
+
+.swiper-pagination-bullet{
+  background-color: white !important;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: #692B7D !important;
+}
+.slide{
+  /* background-color: red; */
+}
