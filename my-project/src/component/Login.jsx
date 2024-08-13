@@ -3,9 +3,10 @@ import LoginPic from "../assets/Login.png"
 const Login = () => {
   return (
     <>
+    <div className="container">
         <div className="img">
-          <div className="text1"><p>Welcome to ChicCloset</p></div>
-          <div className="text2">Discover a world of fashion tailored just for you</div>
+          <div className="text"><p>Welcome to ChicCloset</p></div>
+          <div className="text1">Discover a world of fashion tailored just for you</div>
           <img src={LoginPic} className="image1" />
         </div>
         <div className="content">
@@ -17,11 +18,11 @@ const Login = () => {
           <div className="text4">Welcome back!</div>
           <div className="google"><div className="flat-color-icons--google"></div>Sign in with google</div>
 
-          <div className="or">or</div>
+          <div className="or"><hr/>or<hr/></div>
 
           <div className="form">
-            <p className="text5">E-mail</p>
-            <input type="email" id="fullname" placeholder="jeffdan@gmail.com" />
+            <p className="text5">Username</p>
+            <input type="text" id="fullname" placeholder="jeffdan@gmail.com" />
           </div>
           <div className="form">
             <p className="text5">Password</p>
@@ -29,8 +30,8 @@ const Login = () => {
           </div>
           <button type="submit" id="continue">Login</button>
           <div className="login">Don't have an account? <a href="sign-up.html">Sign up</a></div>
-          <p>David was here</p>
         </div>
+      </div>
     </>
   )
 }
