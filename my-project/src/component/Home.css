@@ -70,24 +70,24 @@
 }
 
 
-.text{
+/* .text{
   display: flex;
   align-items: center;
   justify-content:end;
   flex-direction: column;
   height: 90vh;
-}
+} */
 .brand-name{
   font-family: playfair Display;
   font-size: 12rem;
   text-align: center;
   color: black;
 }
-.text2{
+/* .text2{
   font-size: 28px; 
   color:#FFFFFF; 
   font-family: Quattrocento;
-}
+} */
 
 .shop-div{
   /* display: flex; */
