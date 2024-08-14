@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import Login from "./component/Login.jsx";
+import Buyven	 from './component/Buyven.jsx';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -18,6 +19,11 @@ const router = createBrowserRouter([
     path: "/Login",
     element: <Login/>
   },
+
+  {
+    path :"/Buyven",
+    element:<Buyven/>
+  }
 ]);
 
 
