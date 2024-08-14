@@ -1,5 +1,5 @@
 import "./Home.css"
-import img from "../assets/Frame 4.png"
+import img from "../../assets/Frame 4.png"
 import { Navigate, useNavigate } from "react-router-dom"
 const Home = () => {
 
