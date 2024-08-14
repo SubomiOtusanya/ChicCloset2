@@ -5,6 +5,8 @@ import './App.css'
 import Login from './component/Login.jsx'
 import Home from './component/Home.jsx'
 import Sldier from './component/Sldier.jsx'
+import Categories from './component/Categories.jsx'
+// import SignUp from './component/SignUp.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +15,8 @@ function App() {
     <>
     <Home/>
     <Sldier />
+    <Categories />
+    {/* <SignUp /> */}
     </>
   )
 }
