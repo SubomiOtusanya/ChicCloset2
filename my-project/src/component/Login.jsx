@@ -1,12 +1,16 @@
 import "../component/login.css"
 import LoginPic from "../assets/Login.png"
+import { Navigate, useNavigate } from "react-router-dom"
+
 const Login = () => {
+  const navigate = useNavigate()
+
   return (
     <>
     <div className="container">
         <div className="img">
-          <div className="text"><p>Welcome to ChicCloset</p></div>
-          <div className="text1">Discover a world of fashion tailored just for you</div>
+          <p className="text">Welcome to ChicCloset</p>
+          <p className="text1">Discover a world of fashion tailored just for you</p>
           <img src={LoginPic} className="image1" />
         </div>
         <div className="content">
@@ -29,7 +33,7 @@ const Login = () => {
             <input type="password" id="fullname" placeholder="Password" />
           </div>
           <button type="submit" id="continue">Login</button>
-          <div className="login">Don't have an account? <a href="sign-up.html">Sign up</a></div>
+          <div className="login">Don't have an account? <a onClick={()=> navigate("/Buyven")}>Sign up</a></div>
         </div>
       </div>
     </>
