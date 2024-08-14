@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import Login from "./component/Login.jsx";
-import Buyven	 from './component/Buyven.jsx';
+import Buyven	 from './component/signup/Buyven.jsx';
+import BuyerSignUp from './component/signup/BuyerSignUp.jsx';
+import VendorSignUp from './component/signup/VendorSignUp.jsx';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
   {
     path :"/Buyven",
     element:<Buyven/>
+  },
+  {
+    path :"/buyer",
+    element:<BuyerSignUp/>
+  },
+  {
+    path :"/vendor",
+    element:<VendorSignUp/>
   }
 ]);
 

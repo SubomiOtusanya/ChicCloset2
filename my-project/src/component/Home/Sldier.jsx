@@ -1,11 +1,11 @@
 import React from "react";
 import "./slider.css";
-import img1 from "../assets/Frame 9.png";
-import img2 from "../assets/Frame 8.png";
-import img3 from "../assets/Frame 10.png";
-import img4 from "../assets/Frame 11.png"
-import img5 from "../assets/Frame 12.png"
-import img6 from "../assets/Frame 13.png"
+import img1 from "../../assets/Frame 9.png";
+import img2 from "../../assets/Frame 8.png";
+import img3 from "../../assets/Frame 10.png";
+import img4 from "../../assets/Frame 11.png"
+import img5 from "../../assets/Frame 12.png"
+import img6 from "../../assets/Frame 13.png"
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
