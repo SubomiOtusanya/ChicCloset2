@@ -4,7 +4,7 @@
 }
 
 .img1:hover{
-  transform: scale(1.);
+  transform: scale(1.05);
   border-radius: inherit;
 }
 
@@ -16,5 +16,5 @@
   background-color: #692B7D !important;
 }
 .slide{
-  background-color: red;
+  /* background-color: red; */
 }

@@ -79,15 +79,12 @@
 } */
 .brand-name{
   font-family: playfair Display;
-  font-size: 12rem;
+  font-size: 14.5rem;
   text-align: center;
   color: black;
+  font-weight: 700;
+ 
 }
-/* .text2{
-  font-size: 28px; 
-  color:#FFFFFF; 
-  font-family: Quattrocento;
-} */
 
 .shop-div{
   /* display: flex; */
@@ -107,7 +104,7 @@
   font-weight: 700;
   margin: 0 auto;
   cursor: pointer;
-  /* border: 1px solid red; */
+  
 }
 .second{
   width: 100%;
@@ -125,4 +122,12 @@
 
 .text-div{
   text-align: center;
+}
+
+.discover{
+  font-family:  Quattrocento;
+  font-weight: 400;
+  font-size: 32px;
+  color: #FFFFFF;
+  /* line-height:5rem; */
 }
