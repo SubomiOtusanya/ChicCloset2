@@ -1,6 +1,7 @@
 import "../component/login.css"
 import LoginPic from "../assets/Login.png"
 import { Navigate, useNavigate } from "react-router-dom"
+import "./login.css"
 
 const Login = () => {
   const navigate = useNavigate()
@@ -20,19 +21,19 @@ const Login = () => {
           </div>
           <div className="text3">Login</div>
           <div className="text4">Welcome back!</div>
-          <div className="google"><div className="flat-color-icons--google"></div>Sign in with google</div>
+          <div className="googles"><div className="flat-color-icons--google"></div>Sign in with google</div>
 
           <div className="or"><hr/>or<hr/></div>
 
           <div className="form">
             <p className="text5">Username</p>
-            <input type="text" id="fullname" placeholder="jeffdan@gmail.com" />
+            <input type="text" id="fullnames" placeholder="jeffdan@gmail.com" />
           </div>
           <div className="form">
             <p className="text5">Password</p>
-            <input type="password" id="fullname" placeholder="Password" />
+            <input type="password" id="fullnames" placeholder="Password" />
           </div>
-          <button type="submit" id="continue">Login</button>
+          <button type="submit" id="continues">Login</button>
           <div className="login">Don't have an account? <a onClick={()=> navigate("/Buyven")}>Sign up</a></div>
         </div>
       </div>

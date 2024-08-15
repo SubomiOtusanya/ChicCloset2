@@ -124,7 +124,7 @@
   font-size: 1.9vw;
 }
 
-.google {
+.googles {
   font-size: 75%;
   display: flex;
   align-items: center;
@@ -184,7 +184,7 @@ hr {
   padding-left: 5px;
 }
 
-#fullname {
+#fullnames {
   width: 98%;
   height: 65%;
   background-color: #fbf6fd;
@@ -197,7 +197,7 @@ hr {
   font-style: normal;
 }
 
-#continue {
+#continues {
   width: 51%;
   background-color: #7E3299;
   height: 8vh;
