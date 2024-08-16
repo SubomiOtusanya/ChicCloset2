@@ -3,12 +3,14 @@ import { useState } from "react"
 import { Navigate, useNavigate } from "react-router-dom"
 import "./Buyven.css"
 
-function Buyven(){
+function Buyven(props){
     const navigate = useNavigate()
     const [user, setUser] = useState("");
+console.log("uHiser",user);
+
     function handleContinue(){
         if(user === "buyer"){
-            navigate("/buyer")
+            navigate("/buyer",{state: {user}})
             console.log("clicked buyer");
         }else if(user === "vendor"){
             navigate("/vendor")

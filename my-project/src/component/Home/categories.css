@@ -1,8 +1,23 @@
-.cart{
+.categories{ 
   font-family: Quattrocento;
-  font-size: 48px;
+  font-size: 40px;
   display: block;
   /* border: 1px solid red; */
   text-align: center;
   /* padding-bottom: 10rem; */
+  margin-bottom: 5px;
 }
+
+.box{
+  background-color:#1B2632;
+  /* border-radius: 3px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 350px;
+  position: relative;
+  padding: 1rem 1rem 3rem 1rem;
+  margin-top: 0.5rem;
+  background-image: url("../../assets/wave.png");
+  background-size: cover;
+}
+
