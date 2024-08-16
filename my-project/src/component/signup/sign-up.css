@@ -130,7 +130,7 @@
   align-items: center;
   justify-content: center;
   width: 50%;
-  height: 35px;
+  height: 60px;
   background-color: #F5EBFC;
   border-radius: 5px;
   margin-top: 10px;
@@ -184,18 +184,18 @@ hr {
   font-style: normal;
   padding-left: 5px;
   /* border: 1px solid red; */
-  padding-top: 10px;
+  /* padding-top: -10px; */
 }
 
 .details {
   width: 98%;
-  height: 50px;
+  height: 35px;
   background-color: #fbf6fd;
   border: none;
   border-radius: 5px;
   padding-left: 10px;
   font-size: 12px;
-  font-family: "Quattrocento", serif;
+  font-family: "Quattrocento";
   font-weight: 500;
   font-style: normal;
 }
@@ -203,7 +203,7 @@ hr {
 .sign {
   width: 50%;
   background-color: #7E3299;
-  height: 50px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -215,6 +215,7 @@ hr {
   border-radius: 5px;
   border: none;
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .login {
@@ -225,6 +226,8 @@ hr {
   font-style: normal;
   font-size: 1.2vw;
   padding-top: 15px;
+  /* border: 1px solid red; */
+  padding-bottom: 70px;
 
 }
 
@@ -232,4 +235,11 @@ a {
   text-decoration: none;
   color: #692B7D;
   cursor: pointer;
+}
+
+.eye{
+  /* border: 1px solid red; */
+  position: absolute;
+  right: 12px;
+  top: 15px;
 }
