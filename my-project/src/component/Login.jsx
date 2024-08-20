@@ -2,6 +2,7 @@ import "../component/login.css"
 import LoginPic from "../assets/Login.png"
 import { Navigate, useNavigate } from "react-router-dom"
 import Logo from "../assets/LOGO.png"
+import SignInSignOut from "../pages/signInsignOut"
 
 const Login = () => {
   const navigate = useNavigate()
@@ -9,11 +10,7 @@ const Login = () => {
   return (
     <>
     <div className="containers">
-        <div className="imgs">
-          <p className="texting">Welcome to ChicCloset</p>
-          <p className="texting1">Discover a world of fashion tailored just for you</p>
-          <img src={LoginPic} className="image1" />
-        </div>
+        <SignInSignOut/>
         <div className="contents">
             <img src={Logo} alt="chiccloset logo" className="imaging"/>
           <div className="tmsg3">Login</div>

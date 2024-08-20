@@ -9,7 +9,7 @@ function Buyven(props){
 console.log("uHiser",user);
 
     function handleContinue(){
-        if(user === "buyer"){
+        if(user === "customer"){
             navigate("/buyer",{state: {user}})
             console.log("clicked buyer");
         }else if(user === "vendor"){
@@ -30,7 +30,7 @@ console.log("uHiser",user);
                 <p className="txt2">Pick which one best describes you</p>
                 <div className="option">
                     <div className="label">
-                        <label><input type="radio" name="radio" id="Buyer" onClick={()=> setUser("buyer")}/> Buyer</label>
+                        <label><input type="radio" name="radio" id="Buyer" onClick={()=> setUser("customer")}/> Buyer</label>
                     </div>
                     <div className="label">
                         <label><input type="radio" name="radio" id="Vendor" onClick={()=> setUser("vendor")}/> Vendor</label>

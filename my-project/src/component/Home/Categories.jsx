@@ -16,7 +16,8 @@ const Categories = () => {
         {/* <img src={man} alt="" class="image" /> */}
         </div>
         <div className="box">
-
+          <img src={wave} alt="" />
+          <div className="overlay"></div>
         </div>
         <div className="box">
 

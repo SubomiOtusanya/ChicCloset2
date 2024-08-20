@@ -24,7 +24,7 @@ const router = createBrowserRouter([
 
   {
     path :"/Buyven",
-    element:<Buyven/>
+    element:<Buyven />
   },
   {
     path :"/buyer",
