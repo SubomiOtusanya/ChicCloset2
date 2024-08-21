@@ -23,18 +23,18 @@ const router = createBrowserRouter([
     element: <Login/>
   },
 
-  {
-    path :"/Buyven",
-    element:<Buyven />
-  },
+  // {
+  //   path :"/Buyven",
+  //   element:<Buyven />
+  // },
   {
     path :"/buyer",
     element:<BuyerSignUp/>
   },
-  {
-    path :"/vendor",
-    element:<VendorSignUp/>
-  },
+  // {
+  //   path :"/vendor",
+  //   element:<VendorSignUp/>
+  // },
   {
     path :"/producthomepage",
     element:<ProductHomePage/>
