@@ -12,20 +12,25 @@
   background-color:#1B2632;
   /* border-radius: 3px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 500px;
-  height: 350px;
+  width: 100%;
+  height: 550px;
   position: relative;
   /* padding: 1rem 1rem 3rem 1rem; */
   margin-top: 0.5rem;
   overflow: hidden;
   /* background-image: url("../../assets/wave.png");
   background-size: cover; */
+  border-top-left-radius: 15px;
 }
+
+
 
 .box img{
   width: 100%;
   height: 100%;
 }
+
+
 
 .overlay{
   position: absolute;
@@ -33,8 +38,89 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(27, 38, 50, 0.9);
-  
+  background-color: rgba(27, 38, 50, 0.8);
 
 }
+.overlay1{
+  position: absolute;
+  top: 0 ;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(180, 40, 173, 0.6);
+}
+.man{
+  position: absolute;
+  top: 0;
+  right: -10px;
+  transition: 0.3s ease-in-out;
+}
+.man:hover{
+  transform: scale(1.05);
+}
 
+.box1{
+  background-color: #A1A1A1;
+  /* border-radius: 3px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  width: 100%;
+  height: 550px;
+  position: relative;
+  /* padding: 1rem 1rem 3rem 1rem; */
+  margin-top: 0.5rem;
+  overflow: hidden;
+  border-top-right-radius: 10px;
+}
+
+
+
+.cap{
+  position: absolute;
+  bottom: 0;
+
+  right: -10px;
+  transition: 0.3s ease-in-out;
+}
+.cap:hover{
+  transform: scale(1.05);
+}
+
+.book{
+  position: absolute;
+  bottom: 0;
+
+  right: -10px;
+  transition: 0.3s ease-in-out;
+}
+.book:hover{
+  transform: scale(1.05);
+}
+
+.head-text{
+  color: #FFFFFF;
+  font-family: Quattrocento;
+  font-size: 48px ;
+  font-weight: 700;
+}
+
+.head-info{
+  font-size: 14px;
+  font-family: Quattrocento;
+  color: #FFFFFF;
+  margin-top: 0.5rem;
+}
+
+.head-text2{
+  color:black;
+  font-family: Quattrocento;
+  font-size: 48px ;
+  font-weight: 700;
+}
+
+
+.head-info2{
+  font-size: 14px;
+  font-family: Quattrocento;
+  color:black;
+  margin-top: 0.5rem;
+}

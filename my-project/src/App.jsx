@@ -6,6 +6,7 @@ import Login from './component/Login.jsx'
 import Home from './component/Home/Home.jsx'
 import Sldier from './component/Home/Sldier.jsx'
 import Categories from './component/Home/Categories.jsx'
+import PopularProduct from './component/PopularProduct.jsx'
 // import SignUp from './component/SignUp.jsx'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Sldier />
     <Categories />
     {/* <SignUp /> */}
+    <PopularProduct />
     </>
   )
 }

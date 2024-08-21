@@ -10,6 +10,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import ProductHomePage from './component/Product/ProductHomePage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path :"/vendor",
     element:<VendorSignUp/>
+  },
+  {
+    path :"/producthomepage",
+    element:<ProductHomePage/>
   }
 ]);
 
