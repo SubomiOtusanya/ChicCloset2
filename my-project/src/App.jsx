@@ -6,9 +6,7 @@ import Login from './component/Login.jsx'
 import Home from './component/Home/Home.jsx'
 import Sldier from './component/Home/Sldier.jsx'
 import Categories from './component/Home/Categories.jsx'
-import Navbar from './component/Product/Navbar.jsx'
 import PopularProduct from './component/PopularProduct.jsx'
-import Sidebar from './component/Product/Sidebar.jsx'
 // import SignUp from './component/SignUp.jsx'
 
 function App() {
@@ -16,13 +14,11 @@ function App() {
 
   return (
     <>
-    {/* <Home/>
+    <Home/>
     <Sldier />
     <Categories />
-    {/* <SignUp /> 
-    <PopularProduct /> */}
-    {/* <Navbar name="David"/> */}
-    <Sidebar/>
+    {/* <SignUp /> */}
+    <PopularProduct />
     </>
   )
 }

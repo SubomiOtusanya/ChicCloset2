@@ -4,7 +4,10 @@ function Sidebar(){
     return(
         <div className="sidepiece">
             <img src={LOGO} className="logoo"/>
+            <p></p>
         </div>
+        
     )
+
 }
 export default Sidebar
