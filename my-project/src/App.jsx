@@ -8,19 +8,22 @@ import Sldier from './component/Home/Sldier.jsx'
 import Categories from './component/Home/Categories.jsx'
 import PopularProduct from './component/PopularProduct.jsx'
 import Banner from "./component/Banner.jsx"
+import Sidebar from './component/Product/Sidebar.jsx'
 // import SignUp from './component/SignUp.jsx'
+import ProductHomePage from './component/Product/ProductHomePage.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Home/>
+    {/* <Home/>
     <Sldier />
     <Categories />
-    {/* <SignUp /> */}
+    {/* <SignUp /> }
     <PopularProduct />
-    <Banner />
+    <Banner /> */}
+    <ProductHomePage/>
     </>
   )
 }
