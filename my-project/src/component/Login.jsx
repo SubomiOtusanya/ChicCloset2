@@ -27,7 +27,7 @@ const Login = () => {
             <p className="tmsg5">Password</p>
             <input type="password" id="fullnames" placeholder="Password" />
           </div>
-          <button type="submit" id="continues">Login</button>
+          <button type="submit" id="continues" onClick={()=> navigate("/producthomepage")}>Login</button>
           <div className="logins">Don't have an account? <a onClick={()=> navigate("/Buyven")}>Sign up</a></div>
         </div>
       </div>
