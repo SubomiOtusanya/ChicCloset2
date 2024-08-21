@@ -1,13 +1,19 @@
 import { react } from 'react'
+import "./Navbar.css"
 
 
-
-function Navbar() {
+function Navbar({name,className}) {
 
   return (
-    <div>
-      Hello People
+    <nav className = {`product-bar ${className}`}>
+      <p>Hello, {name}</p>
+    <div className='shopbells'>
+      <input type='search' className="searching" placeholder='search'/>
+      
+      <div className='gg--shopping-cart'></div>
+      <div className='mage--notification-bell'></div>
     </div>
+    </nav>
   )
 }
 

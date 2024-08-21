@@ -1,0 +1,13 @@
+.sidepiece{
+    width: 20%;
+    border: 1px solid;
+    height: 100vh;
+    justify-content: center;
+    
+}
+.logoo{
+    width: 40%;
+    display: block;
+    height: auto;
+
+}
