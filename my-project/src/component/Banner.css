@@ -1,0 +1,54 @@
+.banner-div1{
+  width: 33.3%;
+  background-color: #7E3299;
+  border-top-left-radius: 15px;
+  /* border-top-right-radius: 5px; */
+  border-bottom-left-radius: 15px;
+  /* border-bottom-right-radius: 5px; */
+}
+.banner-div2{
+  width: 33.3%;
+  height: 500px;
+
+}
+.banner-div3{
+  width: 33.3%;
+  background-color: #FFBE20;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */  
+
+  
+}
+
+.banner-text{
+/* border: 1px solid red; */
+display: flex;
+justify-content: center; /* Centers content horizontally within itself */
+flex-direction: column;  /* Stacks children vertically */
+text-align: center;      /* Centers text horizontally within itself */
+align-items: center;     /* Centers content horizontally within itself */
+padding: 20px;           /* Optional padding */
+
+}
+
+.banner-container{
+  width:90% ;
+  margin:0 auto;
+  margin-top:5rem;
+  display:flex;
+  flex-wrap: wrap;
+  height:"400px";
+
+}
+
+
+.banner-image{
+  width: 140px;
+}
+
+
+
+

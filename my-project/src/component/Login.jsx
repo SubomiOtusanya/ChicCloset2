@@ -28,7 +28,7 @@ const Login = () => {
             <input type="password" id="fullnames" placeholder="Password" />
           </div>
           <button type="submit" id="continues" onClick={()=> navigate("/producthomepage")}>Login</button>
-          <div className="logins">Don't have an account? <a onClick={()=> navigate("/Buyven")}>Sign up</a></div>
+          <div className="logins">Don't have an account? <a onClick={()=> navigate("/buyer")}>Sign up</a></div>
         </div>
       </div>
     </>

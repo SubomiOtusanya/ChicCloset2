@@ -1,11 +1,11 @@
-import { Navigate, useLocation, useNavigate, useParams } from "react-router-dom"
+import { Navigate,  useNavigate, useParams } from "react-router-dom"
 import "./sign-up.css"
 import { useState } from "react"
 import SignInSignOut from "../../pages/signInsignOut"
 const SignUp = () => {
   const navigate = useNavigate()
-  const location = useLocation()
-  const user = location.state.user
+  // const location = useLocation()
+  // const user = location.state.user
 
 
   const [fullname, setFullName] = useState("");
