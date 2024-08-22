@@ -17,15 +17,15 @@ function App() {
 
   return (
     <>
-    {/* <Home/>
-    <Sldier />
-    <Categories />
-    {/* <SignUp /> }
-    <PopularProduct />
-    <Banner /> */}
-    <ProductHomePage/>
+     {/* <Home/> */}
+    {/* <Sldier /> */}
+    {/* <Categories /> */}
+    {/* <SignUp />  */}
+    {/* <PopularProduct /> */}
+    {/* <Banner />  */}
+     <ProductHomePage/>
     </>
   )
-}
+} 
 
 export default App

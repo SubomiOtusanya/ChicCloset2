@@ -3,7 +3,7 @@
 
 .sidepiece{
     width: 20%;
-    border: 1px solid;
+    border: 1px solid #D3D3D3;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@
     width: 40%;
     display: block;
     height: auto;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin-top: 5vh;
     margin-bottom: 5vh;
 
@@ -31,7 +31,7 @@
 }
 .actions{
     width: 85%;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 .activ{
     width: 100%;
@@ -124,16 +124,26 @@
 .profiling{
     background-color: #EBD7F7;
     width: 100%;
-    height: 40px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid red; */
+
 }
 .circle{
-    width: 20%;
-    height: auto;
-    border-radius: 100px;
+    /* width: 20%; */
+    /* height: auto; */
     background-color: white;
-}
-.prof{
+    width: 50px; /* Set the width of the circle */
+    height: 50px; /* Set the height of the circle */
+    background-color:#ffff; /* Set the background color */
+    border-radius:50%;
 
+}
+
+.prof{
+    display: flex;
+    display: flex;
+    justify-content: end; /* Center horizontally */
+    align-items: center;
 }

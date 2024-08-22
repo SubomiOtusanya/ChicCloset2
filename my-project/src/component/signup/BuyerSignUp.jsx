@@ -310,7 +310,7 @@ const SignUp = () => {
                   console.log(data['username'][0]);
                   if(data.message === "User Created and Logged In Successfully"){
                     navigate("/Login")
-                    console.log(data)
+                    // console.log(data)
                   }else{
                     alert("failed")
                   }

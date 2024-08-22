@@ -5,6 +5,7 @@
   /* border-top-right-radius: 5px; */
   border-bottom-left-radius: 15px;
   /* border-bottom-right-radius: 5px; */
+ 
 }
 .banner-div2{
   width: 33.3%;
@@ -49,6 +50,58 @@ padding: 20px;           /* Optional padding */
   width: 140px;
 }
 
+.banner-content{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
 
+.banner-content h2{
+  font-family: Quattrocento;
+  font-size: 98px;
+  color: #FFFFFF;
+}
 
+.banner-content h3{
+  font-family: Quattrocento;
+  font-size: 48px;
+  color: #FFFFFF;
+  margin-top: 1rem;
+}
 
+.first-text{
+  font-family: Quattrocento;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 0.2rem;
+
+}
+
+.second-text{
+  font-family: Quattrocento;
+  font-size: 16px;
+  margin-top: 0.3rem;
+  color: #D3D3D3;
+  opacity: 1rem;
+}
+
+.banner-shop{
+  background-color: #F5D300;
+  font-family:Quattrocento ;
+  padding: 15px 75px 15px 75px;
+  margin-top: 3rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 40px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+.banner-shop:hover {
+  background-color: #FFFFFF; /* Darker shade of the primary color */
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}

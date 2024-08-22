@@ -10,7 +10,7 @@ function ProductHomePage() {
 
   return(
     <>
-    <div className="conri" st>
+    <div className="Home-container" st>
       <div style={{width:"20%"}}>
         <Sidebar/>
         </div>
