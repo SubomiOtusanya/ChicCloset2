@@ -1,13 +1,12 @@
 import { Navigate, useNavigate } from "react-router-dom"
 import product from "../assets/products"
 
-const PopularProduct = () => {
+const Cart = () => {
 
   const navigate = useNavigate()
   return (
 
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", fontFamily: "Quattrocento", marginTop: "7rem", }}>
-      <h1 style={{ marginBottom: "3rem", fontSize: "40px" }}>Popular Products</h1>
       <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", justifyContent: "center" }}>
         {product.map((prod) => {
           return (
@@ -43,4 +42,4 @@ const PopularProduct = () => {
 
   )
 }
-export default PopularProduct;
+export default Cart;

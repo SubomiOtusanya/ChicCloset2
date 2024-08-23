@@ -307,8 +307,9 @@ const SignUp = () => {
                   
                 })
                 .then(data => {
-                  console.log(data['username'][0]);
-                  if(data.message === "User Created and Logged In Successfully"){
+                  // console.log(data['username'][0]);
+                  console.log(data)
+                  if(data.Message === "User Created and Logged In Successfully"){
                     navigate("/Login")
                     // console.log(data)
                   }else{

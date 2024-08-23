@@ -9,6 +9,7 @@
     align-items: center;
     flex-direction: column;
     position: fixed;
+    /* border: 1px solid green; */
     
 }
 .logoo{
@@ -18,8 +19,6 @@
     /* border: 1px solid; */
     margin-top: 5vh;
     margin-bottom: 5vh;
-
-
 }
 .acting{
     width: 100%;

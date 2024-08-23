@@ -20,7 +20,7 @@ const Home = () => {
 
           <div className="nav-search">
           <i class='bx bx-search'></i>
-            <button onClick={()=>navigate('Login')} class="shop">Shop now</button>
+            <button onClick={()=>navigate('Login')} className="shop btn-shine">Shop now</button>
           </div>
         </nav>
 

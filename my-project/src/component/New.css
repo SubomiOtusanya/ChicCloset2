@@ -1,0 +1,26 @@
+.Arrivals{
+  /* border:1px solid red; */
+  padding-left :15px
+}
+
+
+.Arrivals p{
+  font-family: Quattrocento;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 3.5rem
+}
+
+.card{
+  background-color: #F5EBFC;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  width: 90%;
+  height: 7rem;
+  position: relative;
+
+  padding: 1rem 1rem 3.5rem 1rem;
+
+  margin-top: 0.5rem;
+
+}
