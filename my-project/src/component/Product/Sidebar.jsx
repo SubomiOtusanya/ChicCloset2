@@ -18,7 +18,7 @@ function Sidebar({username}){
                         <div className="circle"></div>
                         <div className="prof">
                             <p>Profile</p>
-                            <p>{username}</p>
+                            <h1>{username}</h1>
                         </div>
                     </div>
                 </div>
