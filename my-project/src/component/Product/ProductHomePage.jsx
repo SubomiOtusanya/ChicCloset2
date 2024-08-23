@@ -12,7 +12,7 @@ function ProductHomePage() {
     <>
     <div className="Home-container" st>
       <div style={{width:"20%"}}>
-        <Sidebar/>
+        <Sidebar username="John Terry"/>
         </div>
         <div style={{width:"80%"}}>
         <Navbar/>
