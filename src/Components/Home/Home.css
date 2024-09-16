@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quattrocento:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-.mainsec{
-  background-image: url("../../assets/Rectangle.png");
-  background-size: cover ;
+.mainsec {
+  background-image: url('../../assets/Rectangle.png');
+  background-size: cover;
   background-position: 10px;
 }
-.section1{
+.section1 {
   /* background-position: ; */
   /* background-repeat: no-repeat; */
   background-size: cover;
@@ -19,16 +19,15 @@
   /* flex-direction: column; */
   justify-content: space-around;
   /* border: 2px solid yellow; */
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(1, 1fr);
   /* border: 1px solid green; */
   /* width: 100vw; */
   height: 100vh;
-
 }
-.image{
+.image {
   width: 120px;
 }
-.nav-bar{
+.nav-bar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,45 +35,41 @@
   gap: 380px;
 }
 
-.nav-links a{
-  color:#FFFFFF;
+.nav-links a {
+  color: #ffffff;
   padding-left: 20px;
   text-decoration: none;
   font-family: Quattrocento;
 }
 
-.shop{
-  background-color: #FFBE20;
+.shop {
+  background-color: #ffbe20;
   padding: 10px 20px;
   border-radius: 7px;
-  font-family: Quattrocento
-  ;
+  font-family: Quattrocento;
   font-size: 15px;
   font-weight: 700;
   cursor: pointer;
   border: none;
   transition: all 0.3s ease-in-out;
-  
 }
 
-
-.shop:hover{
-  background-color: #FFFFFF; /* Darker shade of the primary color */
+.shop:hover {
+  background-color: #ffffff; /* Darker shade of the primary color */
   transform: scale(1.05); /* Slightly enlarge the button */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
 }
 
-.nav-search{
+.nav-search {
   display: flex;
   align-items: center;
   gap: 1.5rem;
 }
 
-.nav-search i{
-  color: #FFFFFF;
-  cursor: pointer;  
+.nav-search i {
+  color: #ffffff;
+  cursor: pointer;
 }
-
 
 /* .text{
   display: flex;
@@ -83,16 +78,15 @@
   flex-direction: column;
   height: 90vh;
 } */
-.brand-name{
+.brand-name {
   font-family: playfair Display;
   font-size: 14.5rem;
   text-align: center;
   color: black;
   font-weight: 700;
- 
 }
 
-.shop-div{
+.shop-div {
   /* display: flex; */
   /* align-items: end; */
   justify-content: center;
@@ -100,8 +94,8 @@
   margin: 0 auto;
   /* height: 30vh; */
 }
-.shop-btn{
-  background-color: #FFBE20;
+.shop-btn {
+  background-color: #ffbe20;
   padding: 10px 15px;
   border: none;
   border-radius: 7px;
@@ -111,22 +105,20 @@
   margin: 0 auto;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-
-  
 }
 
 .shop-btn:hover {
-    background-color: #FFFFFF; /* Darker shade of the primary color */
-    transform: scale(1.05); /* Slightly enlarge the button */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
-  }
+  background-color: #ffffff; /* Darker shade of the primary color */
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
 
-.second{
+.second {
   width: 100%;
   height: 100%;
   min-height: 100vh;
 }
-.text-container{
+.text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -135,14 +127,14 @@
   /* min-height: 50%; */
 }
 
-.text-div{
+.text-div {
   text-align: center;
 }
 
-.discover{
-  font-family:  Quattrocento;
+.discover {
+  font-family: Quattrocento;
   font-weight: 400;
   font-size: 32px;
-  color: #FFFFFF;
+  color: #ffffff;
   /* line-height:5rem; */
 }

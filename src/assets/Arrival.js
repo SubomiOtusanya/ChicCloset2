@@ -14,27 +14,27 @@ let Arrival = [
   },
 
   {
-    id: 1,
+    id: 2,
     image: neck,
   },
 
   {
-    id: 1,
+    id: 3,
     image: body,
   },
 
   {
-    id: 1,
+    id: 4,
     image: front,
   },
 
   {
-    id: 1,
+    id: 5,
     image: cap,
   },
 
   {
-    id: 1,
+    id: 6,
     image: ring,
   },
 ];

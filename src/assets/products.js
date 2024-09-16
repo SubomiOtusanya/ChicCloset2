@@ -14,7 +14,7 @@ let product = [
     image: img1,
   },
   {
-    id: 1,
+    id: 2,
     name: 'Chinese Kimono',
     category: 'Dark Grey Men’s Shirt ',
     size: 'S-2XL',
@@ -22,7 +22,7 @@ let product = [
     image: img2,
   },
   {
-    id: 1,
+    id: 3,
     name: 'LA Baseball Cap',
     category: 'Baseball caps',
     size: 'S-2XL',
@@ -30,7 +30,7 @@ let product = [
     image: img3,
   },
   {
-    id: 1,
+    id: 4,
     name: 'Black Cross Necklace',
     category: 'Necklace/Accessories',
     size: '40-60cm',
@@ -38,7 +38,7 @@ let product = [
     image: img4,
   },
   {
-    id: 1,
+    id: 5,
     name: 'White Kaftan',
     category: 'African Men',
     size: '40-60cm',
